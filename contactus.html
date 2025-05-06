@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - OrangeCare Insurance</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #ff6f00;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1500x400/FF6F00/ffffff?text=Contact+Us') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background-color: rgba(0,0,0,0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .contact-section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .contact-section h2 {
+      color: #ff6f00;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .contact-info {
+      margin-bottom: 2rem;
+    }
+    .contact-info p {
+      margin: 0.5rem 0;
+    }
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #ff6f00;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .map {
+      margin-top: 2rem;
+    }
+    .map iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #ff6f00;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><strong>OrangeCare</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="career.html">Careers</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Contact Us</h1>
+  </div>
+
+  <section class="contact-section">
+    <h2>Get in Touch</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> support@orangecare.com</p>
+      <p><strong>Address:</strong> 456 OrangeCare Plaza, Health Road, Mumbai, MH - 400001</p>
+    </div>
+
+    <div class="contact-form">
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609951085!2d72.7410995367539!3d19.082522317671436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63c59e2bdc9%3A0xbaa3ec22120d5f92!2sMumbai!5e0!3m2!1sen!2sin!4v1714998300000" allowfullscreen=""></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 OrangeCare Insurance. All rights reserved.</p>
+  </footer>
+</body>
+</html>
